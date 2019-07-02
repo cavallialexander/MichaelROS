@@ -1,0 +1,18 @@
+<robot name="cartographer_backpack_2d">
+  <material name="orange">
+    <color rgba="1.0 0.5 0.2 1" />
+  </material>
+  <material name="gray">
+    <color rgba="0.2 0.2 0.2 1" />
+  </material>
+
+  <link name="imu_link">
+    <visual>
+      <origin xyz="0 0 0" />
+      <geometry>
+        <box size="28.04 15.05 4.04" />
+      </geometry>
+      <material name="orange" />
+    </visual>
+  </link>
+</robot>
